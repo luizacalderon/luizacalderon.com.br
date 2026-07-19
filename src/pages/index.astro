@@ -1,4 +1,6 @@
 ---
+import Analytics from "@vercel/analytics/astro"
+import SpeedInsights from "@vercel/speed-insights/astro"
 ---
 
 <html lang="en">
@@ -146,6 +148,8 @@
 		<title>Luiza M. S. Calderon</title>
 	</head>
 	<body>
+        <Analytics />
+        <SpeedInsights />
 		<div class="bordered-container" style="border-width: 2px; padding: clamp(0.5rem, 3vw, 1rem);">
             <div class="bordered-container">
                 <h1>Luiza M. S. Calderon</h1>
