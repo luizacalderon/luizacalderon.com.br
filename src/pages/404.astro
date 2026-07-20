@@ -1,0 +1,25 @@
+---
+import AppLayout from "../layouts/AppLayout.astro"
+---
+<AppLayout>
+    <style>
+        div, div *{
+            text-align: center;
+            width: 100%;
+        }
+
+        #back{
+            text-transform: uppercase;
+            margin-top: 2rem;
+        }
+
+        #errorCode, #errorCode *{
+            font-size: 2rem;
+        }
+    </style>
+    <div>
+        <p id="errorCode"><strong>404</strong></p>
+        <p>Página não encontrada</p>
+        <div id="back"><a href="/">Voltar para o início</a></div>
+    </div>
+</AppLayout>
